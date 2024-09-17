@@ -12,7 +12,7 @@ public class MySpringApplication {
 				SpringApplication.run(MySpringApplication.class, args);
 
 		Example e = context.getBean(Example.class);
-		e.doNothing();
+		e.doNothing(context);
 	}
 
 }
